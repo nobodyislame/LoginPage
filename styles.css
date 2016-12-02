@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #2C0510;
+}
+
+#login-container{
+	width: 450px;
+	height: 440px;
+	margin: 50px auto;
+	background-color: #02152E;
+}
+#login-container p{
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 30px;
+	color:white;
+	font-family: Ubuntu;
+}
+
+#image-container {
+	height: 200px;
+	width: 450px;
+}
+
+#image-container img {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	top: 50px;
+	left:150px;
+
+}
+
+#input-container {
+	position: relative;
+	top:30px;
+	margin: 0 10px;
+}
+
+#input-container input {
+	width: 420px;
+	height: 40px;
+}
+input[type="text" i] {
+	font-size: 20px;
+	font-family: Ubuntu;
+	padding-left: 10px;
+}
+input[type="password" i]{
+	font-size: 20px;
+	padding-left: 10px;
+}
